@@ -1,0 +1,15 @@
+{
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "first":"node-sass -w scss/first.scss -o css/first/ -r --output-style compressed",
+    "second":"node-sass -w scss/second.scss -o css/second/ -r --output-style compressed",
+    "setting":"node-sass -w scss/setting.scss -o css/ -r --output-style compressed"
+  },
+  "author": "Amirmohammad Akbarloo",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^9.0.0"
+  }
+}

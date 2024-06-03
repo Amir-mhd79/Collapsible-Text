@@ -1,0 +1,35 @@
+@import "./setting.css";
+body,html{
+    width: 100vw;
+    height: 100vh;
+}
+.wrapper{
+    width: inherit;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+}
+.wrapper .first, .wrapper .second{
+    width: 120px;
+    height: 100px;  
+    background-color: rgb(79, 36, 118);
+    border-radius: 10px;
+    transition: 300ms;
+}
+.wrapper .first:hover, .wrapper .second:hover{
+    background-color: rgb(37, 15, 58);
+    box-shadow: 5px 5px 10px gray;
+}
+.wrapper .first .firstLink, .wrapper .second .secondLink{
+    text-decoration: none;
+    display: inline-block;
+    width: inherit;
+    height: inherit;
+    line-height: 100px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    color: whitesmoke;
+}
